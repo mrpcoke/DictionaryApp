@@ -1,0 +1,39 @@
+
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing: border-box;
+}
+
+body,html{
+    margin:0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3A3B3C;
+    color:#FFF;
+}
+
+#container{
+    margin:0 auto;
+    margin-top:25px;
+    box-shadow: 0 8px 5px -5px #777777;
+    padding:8px;
+    width:30%;
+    border: 1px solid #FFF;
+    display:block;
+    justify-content: center; 
+    text-align: center;
+}
+
+#txtWord{
+    font-size: 1.2rem;
+    height:25px; 
+    width:280px;
+    color:#FFF;
+    background-color: #3A3B3C;
+    border:1px solid #FFF; 
+}
+
+#container .wordTitle .wordMeaning{
+
+    text-align:left;
+}
